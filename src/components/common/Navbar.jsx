@@ -19,7 +19,6 @@ const ROUTES = {
   events: "/events",
   achievements: "/achievements",
   facilities: "/facilities",
-  alumni: "/alumni",
   news: "/news",
   contact: "/contact",
   student: "/student",
@@ -32,28 +31,29 @@ const ACADEMICS_MENU = [
     title: "Academic Programs",
     icon: <BookOpen className="w-5 h-5" />,
     links: [
-      { name: "Primary School", to: "/academics/primary" },
-      { name: "Middle School", to: "/academics/middle" },
-      { name: "High School", to: "/academics/high" }
+      { name: "Pre Primary", to: "/academics#grades" },
+      { name: "Primary School", to: "/academics#grades" },
+      { name: "Middle School", to: "/academics#grades" },
+      { name: "High School", to: "/academics#grades" }
     ]
   },
   {
     title: "Learning",
     icon: <Microscope className="w-5 h-5" />,
     links: [
-      { name: "Curriculum", to: "/academics/curriculum" },
-      { name: "Smart Classrooms", to: "/facilities/smart-classrooms" },
-      { name: "Laboratories", to: "/facilities/labs" },
-      { name: "Examination System", to: "/academics/exams" }
+      { name: "Curriculum", to: "/academics#curriculum" },
+      { name: "Smart Classrooms", to: "/academics#smart-classrooms" },
+      { name: "Laboratories", to: "/academics#laboratories" },
+      { name: "Examination System", to: "/academics#examination-system" }
     ]
   },
   {
     title: "Achievements",
     icon: <Star className="w-5 h-5" />,
     links: [
-      { name: "Results", to: "/achievements/results" },
-      { name: "Olympiads", to: "/achievements/olympiads" },
-      { name: "Student Excellence", to: "/achievements/excellence" }
+      { name: "Results", to: "/academics#results" },
+      { name: "Olympiads", to: "/academics#olympiads" },
+      { name: "Student Excellence", to: "/academics#student-excellence" }
     ]
   }
 ];
@@ -179,7 +179,7 @@ const MegaMenu = React.memo(({ sections, actions }) => (
           <NavLink to="/admissions/enquiry" className="px-5 py-2 text-sm font-semibold rounded-full border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-white/5 transition-colors dark:text-white">
             Enquiry Form
           </NavLink>
-          <NavLink to="/admissions/apply" className="px-5 py-2 text-sm font-semibold rounded-full bg-linear-to-rrom-blue-600 to-purple-600 text-white shadow-lg hover:shadow-blue-500/30 transition-shadow">
+          <NavLink to="/admissions/apply" className="px-5 py-2 text-sm font-semibold rounded-full bg-linear-to-r from-blue-600 to-purple-600 text-white shadow-lg hover:shadow-blue-500/30 transition-shadow">
             Apply Online
           </NavLink>
         </div>
@@ -318,7 +318,6 @@ export default function Navbar() {
                 <li><NavLink to={ROUTES.events} className={navItemClass}>Events</NavLink></li>
                 <li><NavLink to={ROUTES.achievements} className={navItemClass}>Achievements</NavLink></li>
                 <li><NavLink to={ROUTES.facilities} className={navItemClass}>Facilities</NavLink></li>
-                <li><NavLink to={ROUTES.alumni} className={navItemClass}>Alumni</NavLink></li>
                 <li><NavLink to={ROUTES.news} className={navItemClass}>News</NavLink></li>
                 <li><NavLink to={ROUTES.contact} className={navItemClass}>Contact</NavLink></li>
               </ul>
@@ -405,7 +404,6 @@ export default function Navbar() {
                   { name: "Events", to: ROUTES.events },
                   { name: "Achievements", to: ROUTES.achievements },
                   { name: "Facilities", to: ROUTES.facilities },
-                  { name: "Alumni", to: ROUTES.alumni },
                   { name: "News", to: ROUTES.news },
                   { name: "Contact", to: ROUTES.contact },
                 ].map((link) => (
