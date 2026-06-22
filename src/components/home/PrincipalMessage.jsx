@@ -27,7 +27,7 @@ export default function PrincipalMessage() {
             <div className="relative rounded-3xl overflow-hidden aspect-4/5 lg:aspect-square border border-white/10 shadow-2xl">
               <div className="absolute inset-0 bg-linear-to-t from-slate-950 via-transparent to-transparent z-10" />
               <img 
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1000&auto=format&fit=crop" 
+                src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAGxaYmECdB4r2DFw2_ps44yRoxR2UVEteitL3XqbdPjEFAReQtlIfieceMM89b2Cnq28w5r8QLjs6_ofpSICdqhNmYPk58NrMQf0heDXRJRmWpx6_dh5DBrbV8unAp_OyhPNYgM=s1360-w1360-h1020-rw" 
                 alt="Principal of Miracles World" 
                 className="w-full h-full object-cover"
               />
