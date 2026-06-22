@@ -8,6 +8,7 @@ import Academics from "./pages/Academics";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 import Events from "./pages/Events";
+import Admissions from "./pages/Admissions"; // Import the Admissions component
 import Facilities from "./pages/Facilities";
 // Admissions commented because empty
 // import Admissions from "./pages/Admissions";
@@ -19,6 +20,7 @@ function App() {
       <Navbar />
 
       <Routes>
+        <Route path="/admissions" element={<Admissions />} />
         <Route path="/facilities" element={<Facilities />} />
         <Route path="/events" element={<Events />} />
         <Route path="/" element={<Home />} />

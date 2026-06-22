@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo, useCallback } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { Link ,NavLink, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { 
   Menu, X, Sun, Moon, GraduationCap, Trophy, 
@@ -17,7 +17,6 @@ const ROUTES = {
   guinness: "/guinness",
   gallery: "/gallery",
   events: "/events",
-  achievements: "/achievements",
   facilities: "/facilities",
   news: "/news",
   contact: "/contact",
@@ -33,7 +32,6 @@ const ACADEMICS_MENU = [
     links: [
       { name: "Pre Primary", to: "/academics#grades" },
       { name: "Primary School", to: "/academics#grades" },
-      { name: "Middle School", to: "/academics#grades" },
       { name: "High School", to: "/academics#grades" }
     ]
   },
@@ -43,7 +41,6 @@ const ACADEMICS_MENU = [
     links: [
       { name: "Curriculum", to: "/academics#curriculum" },
       { name: "Smart Classrooms", to: "/academics#smart-classrooms" },
-      { name: "Laboratories", to: "/academics#laboratories" },
       { name: "Examination System", to: "/academics#examination-system" }
     ]
   },
@@ -276,10 +273,14 @@ export default function Navbar() {
                   onMouseEnter={() => setActiveMenu("academics")}
                   onMouseLeave={() => setActiveMenu(null)}
                 >
-                  <button className="flex items-center gap-1 px-2.5 py-2 rounded-full font-semibold text-[13px] text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
-                    Academics
-                    <ChevronDown size={14} className={`transition-transform duration-300 ${activeMenu === "academics" ? "rotate-180" : ""}`} />
-                  </button>
+                <div className="flex items-center gap-1 px-2.5 py-2 rounded-full font-semibold text-[13px]">
+                   <Link to="/academics"className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors" >
+                   Academics
+                  </Link>
+
+  <ChevronDown size={14} className={`text-gray-600 dark:text-gray-300 transition-transform duration-300 ${activeMenu === "academics" ? "rotate-180" : ""}`} />
+
+                </div>
                   <AnimatePresence>
                     {activeMenu === "academics" && <MegaMenu sections={ACADEMICS_MENU} />}
                   </AnimatePresence>
@@ -291,10 +292,19 @@ export default function Navbar() {
                   onMouseEnter={() => setActiveMenu("admissions")}
                   onMouseLeave={() => setActiveMenu(null)}
                 >
-                  <button className="flex items-center gap-1 px-2.5 py-2 rounded-full font-semibold text-[13px] text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
-                    Admissions
-                    <ChevronDown size={14} className={`transition-transform duration-300 ${activeMenu === "admissions" ? "rotate-180" : ""}`} />
-                  </button>
+                 <div className="flex items-center gap-1 px-2.5 py-2 rounded-full font-semibold text-[13px]">
+                  <Link to="/admissions"  className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">
+                 Admissions
+                </Link>
+
+  <ChevronDown
+    size={14}
+    className={`text-gray-600 dark:text-gray-300 transition-transform duration-300 ${
+      activeMenu === "admissions" ? "rotate-180" : ""
+    }`}
+  />
+
+</div>
                   <AnimatePresence>
                     {activeMenu === "admissions" && <MegaMenu sections={ADMISSIONS_MENU} actions />}
                   </AnimatePresence>
@@ -316,7 +326,6 @@ export default function Navbar() {
 
                 <li><NavLink to={ROUTES.gallery} className={navItemClass}>Gallery</NavLink></li>
                 <li><NavLink to={ROUTES.events} className={navItemClass}>Events</NavLink></li>
-                <li><NavLink to={ROUTES.achievements} className={navItemClass}>Achievements</NavLink></li>
                 <li><NavLink to={ROUTES.facilities} className={navItemClass}>Facilities</NavLink></li>
                 <li><NavLink to={ROUTES.news} className={navItemClass}>News</NavLink></li>
                 <li><NavLink to={ROUTES.contact} className={navItemClass}>Contact</NavLink></li>
@@ -402,7 +411,6 @@ export default function Navbar() {
                   { name: "Guinness World Records ⭐", to: ROUTES.guinness, special: true },
                   { name: "Gallery", to: ROUTES.gallery },
                   { name: "Events", to: ROUTES.events },
-                  { name: "Achievements", to: ROUTES.achievements },
                   { name: "Facilities", to: ROUTES.facilities },
                   { name: "News", to: ROUTES.news },
                   { name: "Contact", to: ROUTES.contact },
