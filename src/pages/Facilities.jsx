@@ -177,7 +177,7 @@ const Facilities = () => {
         >
           <motion.div variants={fadeInUp} className={`inline-flex items-center gap-2 ${colors.glass} px-4 py-1 rounded-full border ${colors.border} mb-6`}>
             <Sparkles className={`w-4 h-4 ${colors.accent}`} />
-            <span className={`text-sm font-medium ${colors.accent}`}>Miracles World Campus</span>
+            <span className={`text-sm font-medium ${colors.accent}`}>Scholars Miracle World Campus</span>
           </motion.div>
           
           <motion.h1 
@@ -341,7 +341,7 @@ const Facilities = () => {
               variants={fadeInUp}
               className="text-5xl md:text-6xl font-extrabold tracking-tighter text-white mb-8"
             >
-              Experience Excellence at <br/> <span className={`bg-linear-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent`}>Miracles World</span>
+              Experience Excellence at <br/> <span className={`bg-linear-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent`}>Scholars Miracle World</span>
             </motion.h2>
             
             <motion.p 
@@ -373,7 +373,7 @@ const Facilities = () => {
 
       {/* -- Footer spacer -- */}
       <footer className={`py-6 border-t ${colors.border} bg-slate-950`}>
-        <p className={`text-sm ${colors.textDark}`}>© 2024 Miracles World. All rights reserved.</p>
+        <p className={`text-sm ${colors.textDark}`}>© 2024 Scholars Miracle World. All rights reserved.</p>
       </footer>
 
       {/* Custom slow pulse animation for CTA */}

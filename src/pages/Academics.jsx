@@ -375,7 +375,7 @@ export default function Academics() {
             initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
             className="font-sora text-5xl lg:text-7xl font-bold mb-6 text-white tracking-tight"
           >
-            Discover Excellence at Miracles World
+            Discover Excellence at Scholars Miracle World
           </motion.h2>
           
           <motion.p 

@@ -20,7 +20,7 @@ export default function GalleryPreview() {
             viewport={{ once: true }}
             className="font-sora text-4xl lg:text-5xl font-bold mb-4"
           >
-            Life at <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-500 to-purple-500">Miracles World </span>
+            Life at <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-500 to-purple-500">Scholars Miracle World </span>
           </motion.h2>
           <p className="text-slate-400">Glimpses of excellence, everyday.</p>
         </div>

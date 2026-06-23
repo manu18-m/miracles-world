@@ -28,7 +28,7 @@ export default function PrincipalMessage() {
               <div className="absolute inset-0 bg-linear-to-t from-slate-950 via-transparent to-transparent z-10" />
               <img 
                 src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAGxaYmECdB4r2DFw2_ps44yRoxR2UVEteitL3XqbdPjEFAReQtlIfieceMM89b2Cnq28w5r8QLjs6_ofpSICdqhNmYPk58NrMQf0heDXRJRmWpx6_dh5DBrbV8unAp_OyhPNYgM=s1360-w1360-h1020-rw" 
-                alt="Principal of Miracles World" 
+                alt="Principal of Scholars Miracle World" 
                 className="w-full h-full object-cover"
               />
             </div>
@@ -73,7 +73,7 @@ export default function PrincipalMessage() {
 
             <motion.div variants={fadeUp} className="space-y-6 text-slate-400 leading-relaxed text-lg">
               <p>
-                At Miracles World, education transcends the boundaries of traditional classrooms. We believe in nurturing not just academic brilliance, but the emotional and social intelligence required to thrive in a rapidly evolving world.
+                At Scholars Miracle World, education transcends the boundaries of traditional classrooms. We believe in nurturing not just academic brilliance, but the emotional and social intelligence required to thrive in a rapidly evolving world.
               </p>
               <p>
                 Our commitment to excellence is reflected in everything we do—from our Guinness World Record-holding programs to our state-of-the-art facilities. We don't just teach; we ignite curiosity and inspire greatness.
@@ -82,7 +82,7 @@ export default function PrincipalMessage() {
 
             <motion.div variants={fadeUp} className="pt-8 border-t border-white/10">
               <h4 className="font-sora font-bold text-xl text-white">Mrs.Annapurna Devi</h4>
-              <p className="text-slate-500 text-sm mt-1">Chairman & Founder, Miracles World</p>
+              <p className="text-slate-500 text-sm mt-1">Chairman & Founder, Scholars Miracle World</p>
               {/* Signature placeholder (Stylized font) */}
               <div className="mt-4 font-sora italic text-3xl opacity-50 text-blue-500">
                 ~ Annapurna Devi

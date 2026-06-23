@@ -5,7 +5,7 @@ import { Award, School, MapPin, Building2, UserCheck, CalendarDays, BookOpenChec
 const admissionsData = {
   hero: {
     heading: "Admissions Open 2026",
-    subheading: "Begin your journey at Miracles World — where excellence, innovation, and character shape future leaders."
+    subheading: "Begin your journey at Scholars Miracle World — where excellence, innovation, and character shape future leaders."
   },
   whyChoose: [
     { icon: <Award className="w-10 h-10 text-yellow-400" />, title: "Guinness World Records", description: "Consistently setting benchmarks in educational achievements." },
@@ -167,7 +167,7 @@ const Admissions = () => {
         </motion.div>
       </section>
 
-      {/* 2. WHY CHOOSE MIRACLES WORLD */}
+      {/* 2. WHY CHOOSE Scholars Miracle World */}
       <section className="py-24 px-6 relative bg-slate-950">
         <div className="container mx-auto">
           <motion.div
@@ -383,7 +383,7 @@ const Admissions = () => {
       
       {/* Small footer spacer */}
       <footer className="py-8 bg-slate-950 border-t border-slate-800/40 text-center text-sm text-slate-500">
-        © © {new Date().getFullYear()} Miracles World. All rights reserved.
+        © © {new Date().getFullYear()} Scholars Miracle World. All rights reserved.
       </footer>
     </div>
   );

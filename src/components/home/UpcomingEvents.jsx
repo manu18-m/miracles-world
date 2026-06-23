@@ -12,7 +12,7 @@ month: "AUG",
 
 title: "Guinness World Record Celebration",
 
-location: "Miracles World Campus",
+location: "Scholars Miracle World Campus",
 
 time: "09:00 AM"
 
@@ -60,7 +60,7 @@ export default function UpcomingEvents() {
             viewport={{ once: true }}
           >
             <h2 className="font-sora text-4xl lg:text-5xl font-bold mb-4">Upcoming <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-500 to-purple-500">Events</span></h2>
-            <p className="text-slate-300 max-w-xl">Join us in our continuous pursuit of knowledge. Discover what's happening at Miracles World this month.</p>
+            <p className="text-slate-300 max-w-xl">Join us in our continuous pursuit of knowledge. Discover what's happening at Scholars Miracle World this month.</p>
           </motion.div>
           
           <motion.button 

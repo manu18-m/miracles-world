@@ -81,7 +81,7 @@ export default function About() {
             animate={{ scale: 1 }}
             transition={{ duration: 20, ease: "linear", repeat: Infinity, repeatType: "reverse" }}
             src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=2000&auto=format&fit=crop" 
-            alt="Miracles World Campus"
+            alt="Scholars Miracle World Campus"
             className="w-full h-full object-cover opacity-60"
           />
         </div>
@@ -100,7 +100,7 @@ export default function About() {
             transition={{ duration: 1, delay: 0.2 }}
             className="font-sora text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter mb-6"
           >
-            About <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-500 to-purple-500">Miracles World</span>
+            About <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-500 to-purple-500">Scholars Miracle World</span>
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0, y: 30 }}
@@ -124,7 +124,7 @@ export default function About() {
               <h2 className="font-sora text-4xl lg:text-5xl font-bold mb-6">Our Story</h2>
               <div className="space-y-6 text-slate-300 text-lg leading-relaxed">
                 <p>
-                  Founded with a vision to redefine education, Miracles World stands as a premier institution committed to academic excellence, innovation, leadership, and holistic education.
+                  Founded with a vision to redefine education, Scholars Miracle World stands as a premier institution committed to academic excellence, innovation, leadership, and holistic education.
                 </p>
                 <p>
                   We believe that every child holds a miracle within. Our environment is meticulously designed to nurture that potential, combining world-class infrastructure with an internationally acclaimed curriculum.
@@ -202,7 +202,7 @@ export default function About() {
               <Quote size={64} className="text-white/10 mb-8" />
               <h2 className="font-sora text-4xl lg:text-5xl font-bold mb-8">Message from the Chairman</h2>
               <p className="text-2xl text-slate-300 font-light leading-relaxed mb-10 italic">
-                "Education is not merely about acquiring facts; it's about awakening the mind to its infinite possibilities. At Miracles World, we don't build schools, we build ecosystems of brilliance where the leaders of tomorrow find their voice today."
+                "Education is not merely about acquiring facts; it's about awakening the mind to its infinite possibilities. At Scholars Miracle World, we don't build schools, we build ecosystems of brilliance where the leaders of tomorrow find their voice today."
               </p>
               <div>
                 <h4 className="font-sora font-bold text-2xl text-white">Mrs.Annapurna Devi</h4>
@@ -226,7 +226,7 @@ export default function About() {
             <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-px bg-white/10 md:-translate-x-1/2" />
 
             {[
-              { year: "2010", title: "School Founded", desc: "Miracles World opens its doors with 500 students and a vision for the future." },
+              { year: "2010", title: "School Founded", desc: "Scholars Miracle World opens its doors with 500 students and a vision for the future." },
               { year: "2015", title: "Expansion of Campus", desc: "Inauguration of the advanced sports complex and Olympic-sized swimming pool." },
               { year: "2020", title: "Technology & Smart Classrooms", desc: "Complete digitization of the campus with Apple-integrated learning environments." },
               { year: "2024", title: "Guinness World Records", desc: "Achieved 3 distinct Guinness World Records for student innovation and collaboration." },
@@ -378,7 +378,7 @@ export default function About() {
             initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
             className="font-sora text-5xl lg:text-7xl font-bold mb-6 text-white tracking-tight"
           >
-            Join the Miracles World Family
+            Join the Scholars Miracle World Family
           </motion.h2>
           
           <motion.p 

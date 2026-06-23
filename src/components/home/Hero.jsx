@@ -116,7 +116,7 @@ const CinematicHero = () => {
     })
   };
 
-  const headline = "Miracles World";
+  const headline = "Scholars Miracle World";
   const subHeading = "Excellence Beyond Limits";
 
   const statistics = [

@@ -170,7 +170,7 @@ const MegaMenu = React.memo(({ sections, actions }) => (
     {actions && (
       <div className="bg-gray-50/50 dark:bg-black/20 p-6 flex items-center justify-between border-t border-gray-100 dark:border-white/5">
         <div className="text-sm text-gray-600 dark:text-gray-400 font-medium">
-          Ready to join Miracles World?
+          Ready to join Scholars Miracle World?
         </div>
         <div className="flex gap-4">
           <NavLink to="/admissions/enquiry" className="px-5 py-2 text-sm font-semibold rounded-full border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-white/5 transition-colors dark:text-white">
@@ -250,7 +250,7 @@ export default function Navbar() {
                 </div>
                 <div>
                   <h1 className="font-display font-bold text-xl md:text-2xl tracking-tight text-gray-900 dark:text-white">
-                    Miracles World
+                    Scholars Miracle World
                   </h1>
                   <p className="text-[9px] md:text-[11px] font-semibold text-gray-500 dark:text-gray-400 tracking-[0.2em] uppercase">
                     Excellence Beyond Limits

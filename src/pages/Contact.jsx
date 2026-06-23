@@ -34,7 +34,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: 'Address',
-      lines: ['Saraswati Miracles World', 'Goutham Nagar' ,'Malkajgiri', 'Secunderabad','Telangana - 500047'],
+      lines: ['Saraswati Scholars Miracle World', 'Goutham Nagar' ,'Malkajgiri', 'Secunderabad','Telangana - 500047'],
       color: 'text-blue-500',
     },
     {
@@ -134,7 +134,7 @@ const Contact = () => {
             className="text-lg md:text-2xl text-slate-300 max-w-3xl mx-auto mt-6 font-medium leading-relaxed"
             variants={itemVariants}
           >
-            We would love to hear from you. Visit our campus, ask questions, or begin your journey at Miracles World.
+            We would love to hear from you. Visit our campus, ask questions, or begin your journey at Scholars Miracle World.
           </motion.p>
         </motion.div>
         <div className="absolute bottom-0 left-0 right-0 h-24 bg-linear-to-t from-slate-950 to-transparent"></div>

@@ -37,7 +37,7 @@ export default function CTA() {
           viewport={{ once: true }}
           className="font-sora text-5xl lg:text-7xl font-bold mb-6 text-white tracking-tight"
         >
-          Join Miracles World
+          Join Scholars Miracle World
         </motion.h2>
         
         <motion.p 

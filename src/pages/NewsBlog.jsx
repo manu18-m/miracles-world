@@ -29,7 +29,7 @@ const newsGridData = [
   { id: 3, category: 'Academics', date: 'Oct 08, 2026', title: 'Science Exhibition', desc: 'Innovative projects showcasing the next generation of scientific leaders.', img: 'https://images.unsplash.com/photo-1517976487492-5750f3195933?q=80&w=800&auto=format&fit=crop' },
   { id: 4, category: 'Guinness Records', date: 'Sep 28, 2026', title: 'Guinness Record Celebration', desc: 'A ceremony honoring the students and staff involved in our recent record achievement.', img: 'https://images.unsplash.com/photo-1496291851122-37ac3f4f2207?q=80&w=800&auto=format&fit=crop' },
   { id: 5, category: 'Academics', date: 'Sep 22, 2026', title: 'Smart Classroom Launch', desc: 'Revolutionizing learning with state-of-the-art interactive digital technology.', img: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=800&auto=format&fit=crop' },
-  { id: 6, category: 'Events', date: 'Sep 15, 2026', title: 'Admissions Open 2026', desc: 'Join the Miracles World family. Applications for the next academic year are now live.', img: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=800&auto=format&fit=crop' },
+  { id: 6, category: 'Events', date: 'Sep 15, 2026', title: 'Admissions Open 2026', desc: 'Join the Scholars Miracle World family. Applications for the next academic year are now live.', img: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=800&auto=format&fit=crop' },
 ];
 
 const trendingStoriesData = [
@@ -119,7 +119,7 @@ const NewsBlog = () => {
             transition={{ duration: 1, delay: 0.4 }}
             className="text-xl md:text-2xl text-slate-300 max-w-3xl mx-auto font-medium"
           >
-            Stay updated with achievements, events, and milestones from Miracles World.
+            Stay updated with achievements, events, and milestones from Scholars Miracle World.
           </motion.p>
         </div>
       </section>
@@ -154,7 +154,7 @@ const NewsBlog = () => {
                   </div>
                 </div>
                 <h2 className="font-bold text-white text-3xl lg:text-5xl tracking-tight mb-4 max-w-3xl">
-                  Miracles World achieves Guinness World Record
+                  Scholars Miracle World achieves Guinness World Record
                 </h2>
                 <p className="text-slate-300 text-lg max-w-2xl leading-relaxed">
                   Recognized globally for setting a new benchmark in student collaborative robotics and sustainable innovation.
@@ -335,7 +335,7 @@ const NewsBlog = () => {
             initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} variants={fadeUp}
             className="font-bold text-white text-5xl lg:text-7xl mb-6 tracking-tight leading-none"
           >
-            Become a Part of <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-500 to-purple-500">Miracles World</span>
+            Become a Part of <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-500 to-purple-500">Scholars Miracle World</span>
           </motion.h2>
           
           <motion.p 

@@ -6,7 +6,7 @@ const testimonials = [
   {
     name: "Manoj Kumar",
     role: "Parent of Grade 10 Student",
-    text: "The holistic development approach at Miracles World transformed my son. He's not just excelling academically, but has grown into a confident leader.",
+    text: "The holistic development approach at Scholars Miracle World transformed my son. He's not just excelling academically, but has grown into a confident leader.",
   },
   {
     name: "Steven Anthony",
@@ -35,7 +35,7 @@ export default function Testimonials() {
         >
           <h2 className="font-sora text-4xl lg:text-5xl font-bold mb-4">Voices of <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-500 to-purple-500">Excellence</span></h2>
           <p className="text-slate-400 max-w-2xl mx-auto text-lg">
-            Hear from our students, parents, alumni, and educators who have experienced the Miracles World journey.
+            Hear from our students, parents, alumni, and educators who have experienced the Scholars Miracle World journey.
             </p>
         </motion.div>
 

@@ -145,7 +145,7 @@ staggerChildren: 0.15
 
   const pastEvents = [
     { year: 2026, title: 'Independence Day Celebration', desc: 'Patriotic performances, parade, and flag hoisting on the main campus.', icon: <Users /> },
-    { year: 2025, title: 'Regional Robotics Championship', desc: 'Miracles World team secured the first place with innovative robotic design.', icon: <Cpu/> },
+    { year: 2025, title: 'Regional Robotics Championship', desc: 'Scholars Miracle World team secured the first place with innovative robotic design.', icon: <Cpu/> },
     { year: 2025, title: 'Cultural Fest 2025', desc: 'An evening of diverse cultural music, dance, and theater from around the world.', icon: <Music /> },
     { year: 2024, title: 'Olympiad Award Ceremony', desc: 'Recognizing academic excellence in Science and Mathematics Olympiads.', icon: <Award /> },
     { year: 2024, title: 'Historic Guinness World Record', desc: 'Achieved a record for the largest collective science experiment by students.', icon: <Star /> },
@@ -198,7 +198,7 @@ staggerChildren: 0.15
             className="text-xl md:text-2xl text-slate-300 max-w-3xl mx-auto font-medium"
             variants={itemVariants}
           >
-            Experience the vibrant life of Miracles World through our academic, cultural and sporting events.
+            Experience the vibrant life of Scholars Miracle World through our academic, cultural and sporting events.
           </motion.p>
         </motion.div>
 

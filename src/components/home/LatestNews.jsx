@@ -4,7 +4,7 @@ import { ArrowUpRight } from 'lucide-react';
 
 const news = [
   {
-    title: "Miracles World awarded 'Most Innovative Curriculum 2026'",
+    title: "Scholars Miracle World awarded 'Most Innovative Curriculum 2026'",
     category: "Award",
     image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1000&auto=format&fit=crop",
     featured: true
@@ -35,7 +35,7 @@ export default function LatestNews() {
           >
             Latest <span className="text-transparent bg-clip-text bg-linear-to-r from-purple-500 to-blue-500">News</span>
             <p className="text-slate-400 max-w-2xl mt-4 text-lg">
-             Stay informed with the latest achievements, innovations, and milestones from Miracles World.
+             Stay informed with the latest achievements, innovations, and milestones from Scholars Miracle World.
             </p>
           </motion.h2>
         </div>

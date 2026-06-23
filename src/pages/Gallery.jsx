@@ -126,7 +126,7 @@ export default function Gallery() {
             initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.4 }}
             className="text-xl md:text-2xl text-slate-300 max-w-3xl mx-auto font-medium"
           >
-            Explore the vibrant life, achievements, and unforgettable moments at Miracles World.
+            Explore the vibrant life, achievements, and unforgettable moments at Scholars Miracle World.
           </motion.p>
         </div>
       </section>
@@ -282,7 +282,7 @@ export default function Gallery() {
             initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
             className="font-sora text-5xl lg:text-7xl font-bold mb-6 text-white tracking-tight"
           >
-            Experience Miracles World
+            Experience Scholars Miracle World
           </motion.h2>
           
           <motion.p 
