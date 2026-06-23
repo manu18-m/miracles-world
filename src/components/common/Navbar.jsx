@@ -20,9 +20,12 @@ const ROUTES = {
   facilities: "/facilities",
   news: "/news",
   contact: "/contact",
-  student: "/student",
-  admin: "/admin",
-  apply: "/admissions/apply" // Added Apply Route
+
+  student: "/portal/login",
+
+  admin: "/portal/admin",
+
+  apply: "/admissions/apply"
 };
 
 const ACADEMICS_MENU = [
