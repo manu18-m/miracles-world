@@ -354,7 +354,7 @@ export default function Navbar() {
                   className="px-5 py-2.5 text-sm font-semibold rounded-full border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-200 hover:border-gray-900 dark:hover:border-white transition-colors outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
                 >
                   Student Portal
-                </NavLink>
+                </NavLink>+
                 {/* Updated routing to ROUTES.apply */}
                 <NavLink
                   to={ROUTES.apply}
